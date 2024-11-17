@@ -78,7 +78,7 @@ function App(): React.JSX.Element {
           }}>
           <Section title="Step One">
             Edit <Text style={styles.highlight}>App.tsx</Text> to change this
-            screen and then come back to see your edits.
+            screen and come back to see your edits.
           </Section>
           <Section title="See Your Changes">
             <ReloadInstructions />
@@ -90,13 +90,16 @@ function App(): React.JSX.Element {
             Read the docs to discover what to do next:
           </Section>
           <LearnMoreLinks />
-        </View>
+        /*</View>
         <View style={{
                       flex: 1,
                       justifyContent: 'center',
                       alignItems: 'center',
                     }}>
-          <Text>Hello World 🎉</Text>
+        */
+          <Section title="Awesome Project">            
+            1. <Text style={styles.highlight}>Hello World 🎉</Text>
+          </Section>
         </View>
       </ScrollView>
     </SafeAreaView>
